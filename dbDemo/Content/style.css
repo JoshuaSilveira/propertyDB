@@ -1,0 +1,215 @@
+﻿*GENERAL CSS*/
+.cwidth {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background: white;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*CSS FOR TABLE-LIKE STYLING*/
+#students_result {
+    width: 100%;
+}
+
+.listitem {
+    background: #fefefe;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #dedede;
+    }
+
+    .listitem:hover {
+        background: #e9d898;
+    }
+/*
+    sandbox.bittsdevelopment.com/colcalc
+    columns : 4
+    gutter/column ratio : 0.2
+*/
+.col4, .col4last {
+    float: left;
+    width: 21.73%;
+    margin-right: 4.34%;
+}
+
+.col4last {
+    margin-right: 0%;
+}
+
+/*
+Each column should be 17.48% wide with a gutter space of 3.14%
+*/
+#students_result {
+    width: 100%;
+}
+
+.listitem {
+    background: #fefefe;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #dedede;
+    }
+
+    .listitem:hover {
+        background: #e9d898;
+    }
+/*
+    sandbox.bittsdevelopment.com/colcalc
+    columns : 4
+    gutter/column ratio : 0.2
+*/
+CSS
+/*
+Each column should be 17.24% wide with a gutter space of 3.44%
+*/
+#teachers_result {
+    width: 100%;
+}
+
+.col5 {
+    width: 17.24%;
+    float: left;
+    margin-right: 3.44%;
+}
+
+.col5last {
+    width: 17.24%;
+    float: left;
+    margin-right: 0;
+}
+
+/* DROPDOWN*/
+.addbutton {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-adds {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-adds a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-adds a:hover {
+            background-color: #111;
+        }
+
+.dropdown:hover .dropdown-adds {
+    display: block;
+}
+
+.dropdown:hover .addbutton {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+}
+
+nav {
+    text-align: center;
+    list-style-type: none;
+    background-color: #333;
+}
+
+    nav a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            background-color: #111;
+        }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formfield {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 15px;
+    width: 50%;
+}
+
+    .formfield h1 {
+        left: 0;
+    }
+
+input[type=submit] {
+    width: 25%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchbar {
+    width: 30%;
+    white-space: nowrap;
+}
+
+.formbody {
+    position: relative;
+    left: 25%;
+}
